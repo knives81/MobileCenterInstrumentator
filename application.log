@@ -1,0 +1,558 @@
+2018-04-20 17:07:08.465  INFO 8092 --- [main] .p.MobileCenterInstrumentatorApplication : Starting MobileCenterInstrumentatorApplication on CABCUKDCQB with PID 8092 (C:\Users\pinzi\Documents\workspace-sts-3.8.4.RELEASE\MobileCenterInstrumentator\target\classes started by pinzi in C:\Users\pinzi\Documents\workspace-sts-3.8.4.RELEASE\MobileCenterInstrumentator)
+2018-04-20 17:07:08.475  INFO 8092 --- [main] .p.MobileCenterInstrumentatorApplication : No active profile set, falling back to default profiles: default
+2018-04-20 17:07:08.671  INFO 8092 --- [main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45b9a632: startup date [Fri Apr 20 17:07:08 CEST 2018]; root of context hierarchy
+2018-04-20 17:07:17.863  INFO 8092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8093 (http)
+2018-04-20 17:07:17.959  INFO 8092 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-04-20 17:07:17.960  INFO 8092 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.29
+2018-04-20 17:07:18.063  INFO 8092 --- [localhost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_121\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre1.8.0_152/bin/server;C:/Program Files/Java/jre1.8.0_152/bin;C:/Program Files/Java/jre1.8.0_152/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Users\pinzi\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\pinzi\AppData\Local\Programs\Python\Python36\;C:\Users\pinzi\AppData\Local\Microsoft\WindowsApps;C:\Users\pinzi\Documents\maven\apache-maven-3.3.9\bin;C:\Users\pinzi\AppData\Roaming\npm;C:\Users\pinzi\AppData\Local\atom\bin;C:\adb;C:\Program Files (x86)\HP\Sprinter\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Program Files\nodejs\;C:\Program Files (x86)\HPE\Unified Functional Testing\bin;C:\Users\pinzi\AppData\Local\Android\sdk\platform-tools;C:\Users\pinzi\AppData\Local\Android\sdk\tools;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\pinzi\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\pinzi\AppData\Local\Programs\Python\Python36\;C:\Users\pinzi\AppData\Local\Microsoft\WindowsApps;C:\Users\pinzi\Documents\maven\apache-maven-3.3.9\bin;C:\Users\pinzi\AppData\Local\atom\bin;C:\Program Files\Java\jdk1.8.0_131\bin;C:\Users\pinzi\AppData\Roaming\npm;C:\Users\pinzi\Documents\Work\Programs\sts-bundle\sts-3.8.4.RELEASE;;.]
+2018-04-20 17:07:18.482  INFO 8092 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-04-20 17:07:18.484  INFO 8092 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 9813 ms
+2018-04-20 17:07:21.008  INFO 8092 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-04-20 17:07:21.025  INFO 8092 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-04-20 17:07:21.027  INFO 8092 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-04-20 17:07:21.028  INFO 8092 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-04-20 17:07:21.029  INFO 8092 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-04-20 17:07:21.030  INFO 8092 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-04-20 17:07:21.031  INFO 8092 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-04-20 17:07:21.560  INFO 8092 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-20 17:07:23.630  INFO 8092 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@45b9a632: startup date [Fri Apr 20 17:07:08 CEST 2018]; root of context hierarchy
+2018-04-20 17:07:24.148  INFO 8092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-04-20 17:07:24.153  INFO 8092 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-20 17:07:24.526  INFO 8092 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-20 17:07:24.526  INFO 8092 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-04-20 17:07:25.979  INFO 8092 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-04-20 17:07:26.020  INFO 8092 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-04-20 17:07:26.025  INFO 8092 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-04-20 17:07:26.029  INFO 8092 --- [main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-04-20 17:07:26.326  INFO 8092 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-04-20 17:07:26.466  INFO 8092 --- [main] s.a.ScheduledAnnotationBeanPostProcessor : No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2018-04-20 17:07:26.524  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:26.769  INFO 8092 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8093 (http) with context path ''
+2018-04-20 17:07:26.789  INFO 8092 --- [main] .p.MobileCenterInstrumentatorApplication : Started MobileCenterInstrumentatorApplication in 19.869 seconds (JVM running for 21.22)
+2018-04-20 17:07:27.275  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:28.489  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:28.735  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:30.490  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:30.599  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:32.490  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:32.600  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:34.490  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:34.654  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:36.489  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:36.643  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:38.489  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:38.660  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:40.489  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:40.670  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:42.490  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:42.638  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:44.491  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:44.645  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:46.490  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:46.721  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:48.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:48.659  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:50.490  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:50.604  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:52.490  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:52.667  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:54.491  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:54.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:56.491  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:56.606  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:07:58.490  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:07:58.609  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:00.491  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:00.584  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:02.490  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:02.601  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:04.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:04.603  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:06.491  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:06.584  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:08.491  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:08.583  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:10.491  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:10.589  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:12.491  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:12.583  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:14.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:14.583  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:16.491  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:16.583  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:18.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:18.587  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:20.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:20.583  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:22.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:22.589  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:24.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:24.586  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:26.491  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:26.584  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:28.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:28.642  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:30.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:30.586  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:32.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:32.584  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:34.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:34.589  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:36.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:36.585  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:38.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:38.585  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:40.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:40.585  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:42.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:42.613  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:44.493  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:44.613  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:46.493  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:46.586  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:48.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:48.584  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:50.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:50.583  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:52.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:52.583  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:54.493  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:54.584  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:56.492  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:56.584  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:08:58.493  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:08:58.597  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:00.493  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:00.588  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:02.493  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:02.586  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:04.493  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:04.589  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:06.493  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:06.588  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:08.493  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:08.587  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:10.494  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:10.585  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:12.494  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:12.648  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:14.493  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:14.635  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:16.494  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:16.635  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:18.493  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:18.581  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:20.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:20.585  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:22.493  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:22.625  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:24.494  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:24.640  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:26.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:26.631  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:28.494  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:28.628  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:30.494  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:30.585  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:32.494  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:32.595  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:34.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:34.601  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:36.494  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:36.606  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:38.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:38.596  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:40.494  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:40.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:42.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:42.594  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:44.494  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:44.599  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:46.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:46.597  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:48.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:48.604  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:50.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:50.594  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:52.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:52.614  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:54.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:54.741  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:56.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:56.605  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:09:58.496  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:09:58.606  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:00.496  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:00.596  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:02.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:02.602  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:04.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:04.593  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:06.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:06.592  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:08.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:08.594  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:10.496  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:10.596  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:12.496  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:12.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:14.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:14.595  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:16.496  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:16.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:18.495  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:18.593  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:20.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:20.597  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:22.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:22.596  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:24.496  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:24.597  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:26.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:26.604  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:28.496  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:28.621  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:30.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:30.676  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:32.496  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:32.646  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:34.496  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:34.593  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:36.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:36.594  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:38.498  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:38.605  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:40.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:40.656  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:42.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:42.662  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:44.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:44.892  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:46.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:46.822  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:48.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:48.629  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:50.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:50.647  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:52.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:52.595  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:54.498  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:54.608  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:56.497  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:56.604  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:10:58.498  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:10:58.601  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:00.498  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:00.625  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:02.498  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:02.631  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:04.498  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:04.672  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:06.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:06.599  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:08.498  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:08.595  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:10.498  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:10.604  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:12.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:12.638  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:14.498  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:14.632  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:16.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:16.641  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:18.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:18.625  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:20.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:20.642  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:22.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:22.625  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:24.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:24.634  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:26.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:26.627  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:28.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:28.789  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:30.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:30.658  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:32.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:32.634  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:34.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:34.670  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:36.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:36.662  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:38.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:38.614  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:40.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:40.637  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:42.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:42.599  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:44.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:44.596  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:46.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:46.652  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:48.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:48.648  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:50.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:50.700  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:52.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:52.607  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:54.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:54.607  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:56.499  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:56.600  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:11:58.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:11:58.627  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:00.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:00.621  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:02.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:02.595  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:04.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:04.592  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:06.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:06.594  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:08.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:08.595  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:10.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:10.596  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:12.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:12.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:14.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:14.593  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:16.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:16.593  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:18.500  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:18.590  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:20.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:20.592  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:22.502  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:22.595  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:24.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:24.594  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:26.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:26.593  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:28.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:29.049  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:30.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:30.595  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:32.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:32.706  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:34.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:34.592  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:36.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:36.594  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:38.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:38.593  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:40.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:40.593  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:42.502  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:42.607  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:44.501  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:44.593  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:46.502  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:46.593  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:48.502  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:48.623  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:50.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:50.595  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:52.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:52.612  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:54.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:54.595  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:56.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:56.630  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:12:58.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:12:58.594  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:00.502  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:00.602  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:02.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:02.613  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:04.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:04.603  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:06.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:06.596  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:08.502  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:08.593  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:10.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:10.611  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:12.502  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:12.611  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:14.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:14.592  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:16.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:16.593  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:18.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:18.606  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:20.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:20.594  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:22.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:22.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:24.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:24.596  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:26.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:26.706  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:28.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:28.595  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:30.505  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:30.600  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:32.505  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:32.607  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:34.503  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:34.652  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:36.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:36.677  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:38.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:38.690  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:40.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:40.656  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:42.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:42.603  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:44.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:44.622  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:46.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:46.626  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:48.505  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:48.636  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:50.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:50.624  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:52.505  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:52.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:54.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:54.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:56.505  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:56.635  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:13:58.504  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:13:58.620  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:00.505  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:00.623  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:02.505  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:02.602  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:04.505  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:04.600  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:06.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:06.615  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:08.505  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:08.624  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:10.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:10.605  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:12.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:12.601  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:14.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:14.599  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:16.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:16.597  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:18.507  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:18.601  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:20.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:20.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:22.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:22.599  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:24.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:24.636  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:26.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:26.740  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:28.507  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:28.634  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:30.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:30.637  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:32.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:32.629  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:34.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:34.615  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:36.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:36.607  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:38.507  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:38.611  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:40.507  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:40.619  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:42.508  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:42.646  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:44.508  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:44.636  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:46.507  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:46.620  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:48.507  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:48.649  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:50.506  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:50.687  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:52.508  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:52.624  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:54.511  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:54.620  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:56.508  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:56.690  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:14:58.507  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:14:58.631  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:00.507  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:00.601  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:02.507  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:02.602  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:04.507  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:04.681  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:06.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:06.618  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:08.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:08.603  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:10.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:10.597  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:12.508  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:12.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:14.508  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:14.604  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:16.508  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:16.603  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:18.508  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:18.600  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:20.508  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:20.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:22.508  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:22.607  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:24.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:24.599  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:26.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:26.599  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:28.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:28.597  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:30.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:30.597  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:32.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:32.600  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:34.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:34.610  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:36.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:36.600  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:38.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:38.602  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:40.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:40.599  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:42.510  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:42.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:44.509  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:44.599  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:46.510  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:46.615  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:48.511  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:48.602  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:50.510  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:50.605  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:52.510  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:52.762  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:54.510  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:54.598  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:56.511  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:56.638  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:15:58.510  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:15:58.602  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:16:00.510  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:16:00.612  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:16:02.510  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:16:02.610  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:16:04.511  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:16:04.613  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:16:06.511  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:16:06.605  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:16:08.510  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:16:08.601  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:16:10.510  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:16:10.605  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
+2018-04-20 17:16:12.511  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : Loop
+2018-04-20 17:16:12.653  INFO 8092 --- [pool-1-thread-1] com.pinzi.Scheduler                      : exit: 0
