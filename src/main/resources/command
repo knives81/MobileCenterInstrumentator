@@ -1,0 +1,3 @@
+java -jar instrument.jar --spring.config.location=file:application.properties
+cd /Users/mauriziopinzi/Documents/gitProject/MobileCenterInstrumentator/target
+mv MobileCenterInstrumentator-0.0.1-SNAPSHOT.jar /Users/mauriziopinzi/Dropbox/HPMCEnabler/instrument.jar

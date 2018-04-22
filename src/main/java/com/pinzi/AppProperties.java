@@ -12,9 +12,9 @@ public class AppProperties {
 	
 	
 	@Getter @Setter private String scheduledRateInMs;
-	@Getter @Setter private String ipaSourcePath;
+	@Getter @Setter private String ipa;
 	@Getter @Setter private String ipaDestinationFolder;
-	@Getter @Setter private String profile;
+	@Getter @Setter private String scriptFolder;
 	
 
 }
